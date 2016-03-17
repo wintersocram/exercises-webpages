@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/*
+*{
+	border: 1px solid red !important;
+	box-sizing: border-box;
+}
+*/
+html{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 800px;
+	height: 1000px;
+	margin: 20px auto;
+	background-color: #EAF5F7;
+}
+div.container{
+	font-family: 'Raleway', sans-serif;;
+	position: relative;
+	display: inline-block;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+}
+/*---------- HEADER ----------*/
+header{
+	display: inline-block;
+	float: right;
+	width: 600px;
+	padding: 0;
+	margin: 0;
+}
+
+/*---------- NAV ----------*/
+nav{
+	position: relative;
+	display: inline-block;
+	float: left;
+	background-color: #485053;
+	width: 200px;
+	height: 100%;
+	margin: 0;
+	padding: 60px 0 60px 0;
+}
+nav h1{
+	color: #fff;
+	background-color: #389CD0;
+	margin: 0;
+	padding: 25px 10px 5px 15px;
+}
+nav p{
+	color: #fff;
+	background-color: #389CD0;
+	margin: 0;
+	padding: 0px 10px 25px 15px;
+	font-size: 12px;
+}
+nav ul{
+	position: absolute;
+	padding: 10px;
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	margin: 0;
+	padding: 50px 0 0 0;
+}
+nav ul li{
+	background-color: #393E42;
+	width: 197px;	
+	padding: 20px 0;
+	border-bottom: 1px solid #485053;
+}
+nav ul a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+nav ul li.blue{
+	border-left: 3px solid #389CD0;
+}
+nav ul li.yellow{
+	border-left: 3px solid #D4A344;	
+}
+nav ul li.purple{
+	border-left: 3px solid #8B4BD5;
+}
+nav ul li.green{
+	border-left: 3px solid #39CF8D;	
+}
+nav ul li.pink{
+	border-left: 3px solid #CE3973;	
+}
+nav ul li.blue a:hover{
+	color: #389CD0
+}
+nav ul li.yellow a:hover{
+	color: #D4A344
+}
+nav ul li.purple a:hover{
+	color: #8B4BD5
+}
+nav ul li.green a:hover{
+	color: #39CF8D
+}
+nav ul li.pink a:hover{
+	color: #CE3973
+}
+
+
+/*---------- SECTION ----------*/
+section{
+	display: inline-block;
+	color: #A6AEB0;
+	width: 480px;
+	margin: 20px 60px;
+}
+section article{
+	text-align: center;
+}
+section article h2.article_text{
+	color: #38A9E3;
+	font-size: 20px;
+}
+section article p.body{
+	font-size: 10px;
+	text-align: justify;
+}
+section figure{
+	display: inline-block;
+	margin: 0;
+}
+section figure.fig_1{
+	float: left;	
+}
+section figure.fig_2{
+	float: center;	
+}
+section figure.fig_3{
+	float: right;	
+}
+section figure figcaption.name{
+	font-size: 12px;
+	margin-top: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #E09D1A;
+}
+section article figure span.role{
+	font-size: 8px;
+	text-transform: none;
+	line-height: 20px;
+	text-align: center;
+	color: #A6AEB0;
+}
+section article.article_photos h2{
+	color: #fff;
+	text-align: left;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #E9B144;
+	margin: 0 350px 30px 0;
+	padding: 15px ;
+}
+
+/*---------- DIVIDER ----------*/
+hr{
+	border: none;
+	height: 2px;
+	background: #E09D1A;
+	margin-top: 30px;
+	margin-bottom: 0;
+}

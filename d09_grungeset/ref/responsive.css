@@ -1,0 +1,26 @@
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 600px) 
+and (max-device-width: 800px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+
+	div.container1{
+		width: 100%;
+		height: 30%;
+	}
+	header h1{
+		display: block;
+		line-height: 10px;
+	}
+	nav{
+		display: block;
+		bottom: 0;
+
+		border: 1px solid red;
+	}
+
+
+
+
+
+}

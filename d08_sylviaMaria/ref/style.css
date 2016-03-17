@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url("assets/images/swirl_pattern.png");
+}
+.container{
+	width: 900px;
+	margin: 20px auto;
+}
+nav{  
+	overflow: hidden;
+}
+nav img{
+	width: 150px;
+	float: left;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	font-family: 'Indie Flower', cursive;
+	text-decoration: none;
+	color: #7A4CDF;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 20px; /*This defines the space over the letters*/
+	font-weight: bold;
+	padding: 0 10px; /*Padding is the space inside the border. Top and bottom are 0px. Right and left are 50px.*/
+}
+
+nav ul li a:hover{
+	color: #E9BA30;
+}
+hr{
+	border: none;
+	height: 20px;
+	background: url("assets/images/divider.png") center center no-repeat;
+	margin-bottom: 5px;
+}
+header{
+	position: relative;
+	background: url("assets/images/headerbg.jpg");
+	height: 315px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+header div{
+	position: absolute;
+	bottom: 0px;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+header div p{
+	float: left;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 10px;
+}
+header div a{
+	float: right;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	background-color: #81193E;
+	padding: 5px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+header div a:hover{
+	background-color: green;
+}
+section{
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+
+section article{
+	width: 70%;
+	display: inline-block;
+	background-color: #E0F8F8;
+	border-radius: 10px;
+	padding: 0 10px;
+}
+section article h1{
+	font-family: 'Montserrat', sans-serif;
+}
+section article p{
+	text-align: justify;
+}
+section aside{
+	vertical-align: top;
+	width: 25%;
+	display: inline-block;
+	background-color: rgba(5, 147, 185, 0.51);
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+}
+section aside img{
+	display: block;
+	width: 100px;
+	margin: auto;
+}
+section aside ul{
+	display: inline-block;
+	list-style: none;
+	padding-left: 0;
+
+}
+section aside ul li{
+	display: inline-block;
+	padding: 0 5px;
+}
+section aside ul li img{
+	width: 30px;
+}
+footer p{
+	text-align: center;
+}

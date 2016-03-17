@@ -1,0 +1,20 @@
+1x1 = 145x145 px
+1x2 (verticale) = 145x300 px 
+1x2 (horizontale) = 300x145 px
+2x2 = 300x300 px
+margins: 5px
+Section: 785x630 px
+
+.bg-color-bleu{background-color:#2d89f0;}
+.bg-color-bleu-fonce{background-color:#0064cd;}
+.bg-color-vert{background-color:#01a31c;}
+.bg-color-vert-fonce{background-color:#005200;}
+.bg-color-rouge{background-color:#bc1c48;}
+.bg-color-jaune{background-color:#ffc40d;}
+.bg-color-orange{background-color:#d44a26;}
+.bg-color-rose{background-color:#c3325f;}
+.bg-color-mauve{background-color:#603cba;}
+.bg-color-noir{background-color:#1c1c1c;}
+
+logo au centre de chaque div
+titre en bas à gauche

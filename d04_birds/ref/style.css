@@ -1,0 +1,130 @@
+/* @import url(https://fonts.googleapis.com/css?family=Lobster); */ /*instead of using the link in the script, just copy this tag here*/
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	/*background-color: green; /*change the background color*/
+	/*background-image: url(http://www.mrwallpaper.com/wallpapers/Autumn-Leaves-Background.jpg); /*adds an image to the background*/
+	background-size: 1600px; /* resizes the background picture */
+	/*background-size: cover; /* no matter the size of the picture, it will cover the page. */
+	/*background-size: contain; /* Using contain will mantain the size of the pictur and put a black margin in the picture*/
+	/*background-position: top center; */
+	background-attachment: fixed; /*you scroll down and the image follows*/
+	/*background-repeat: no-repeat;*/
+
+
+	/*shortcut for the commands color, image, position and repeat:*/
+	/*background: #FF3E7A url(img/test.png) center center no-repeat;*/
+	/*background: green url("Images/background.jpg") center center no-repeat; */
+	/*background-attachment: fixed; /*if this command comes before the image link, it won't work*/
+
+
+ 	/*in css3 is possible to overlap images*/
+	background: url("Images/bird2.jpg") top right no-repeat fixed, url("Images/dark_embroidery.png") fixed;
+}
+
+p.xx-small{
+	font-size: xx-small;
+}
+
+p.x-small{
+	font-size: x-small;
+}
+
+p.small{
+	font-size: small;
+}
+
+p.medium{
+	font-size: medium;
+}
+
+p.large{
+	font-size: large;
+}
+
+p.x-large{
+	font-size: x-large;
+}
+
+p.xx-large{
+	font-size: xx-large;
+}
+
+p.percent{
+	font-size: 200%;
+}
+
+/*p.em{
+	font-size: 1em;
+}*/
+
+/*h2{
+	font-family: "Comic Sans MS", "Arial Black", "Impact";  It will try the first, if not found, will try the second and if not found that, the third will be tried
+}
+*/
+
+h2{
+	font-family: 'Lobster', cursive; /*this is the way using google fonts*/
+	/*text-align: right; /*as default is to the left*/
+	text-align: center; /* to align the text in the center*/
+	color: white; /*changes the color of the text*/
+	text-shadow: 1px 1px 10px green;
+}
+
+p{
+	text-align: right;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 100px; /*make the border of the text box become round. Input in pixels.*/
+	border: 2px dashed white; /*Three arguments: thickness, style and color. Can be defined in one command or one-by-one*/
+	/*border-width: 2px;
+	border-style: double;
+	border-color: white;*/
+	border-top-style: double;
+	border-top-color: green;
+
+	box-shadow: 3px 3px 15px 0px orange inset; /*creat shadow in the borders. First 2 numbers will input an offset, the third number is the spread, the fourth is the blur. The fifth argument will define if the shadow is out or in (out by default)*/
+
+
+}
+
+.para1{
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;  /*will set the normal text as default*/
+}
+
+.para1 i{
+	font-weight: normal; /*the i means italic. All parts of the text inside para1 and inside i will receive this configuration*/
+}
+
+.para1 img{ 
+	width:200px; /*this will set all images inside the para1 to this size*/
+	/*float: left;*/
+}
+
+p.below{ 
+	clear: both; /*clear all the floating things in the text*/
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+a:visited{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+a:hover{
+	color: purple; /*when you pass the mouse over the link, it will change color*/
+	text-shadow: 1px 1px 3px white;
+}

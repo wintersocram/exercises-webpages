@@ -1,0 +1,55 @@
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+    div.container{
+      width: 96%;
+      padding: 5px;
+    }
+
+    nav img{
+      float: none;
+      display: block;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+
+    nav ul{
+      float: none;
+      display: block;
+      margin: auto;
+      padding-left: 0;
+      margin-bottom: 10px;
+    }
+
+    nav ul li{
+      display: block;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    header{
+      height: 200px;
+      background-size: cover;
+    }
+
+    section{
+      width: 95%;
+    }
+
+    section article, section aside{
+      display: block;
+      width: 100%;
+    }
+
+    section article{
+      margin-bottom: 10px;
+    }
+
+    section article h1{
+      text-align: center;
+    }
+}

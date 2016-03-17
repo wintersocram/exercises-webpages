@@ -1,0 +1,124 @@
+/*
+* {
+	border: 1px solid red !important;
+	box-sizing: border-box;
+}
+*/
+html, body{
+	width: 100%;
+	height: 100%;
+	background: url("../images/bgmetro1.png");
+}
+
+div {
+	position: relative;
+	float: left;
+	margin: 5px;	
+}
+div:not(.left):not(.weather):not(.all):hover {
+	box-shadow: 0px 0px 0px 5px #005200;
+}
+div.all {
+	display: inline-block;
+	width: 1800px;
+	height: 800px;
+}
+
+p {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 15px;
+	margin-left: 20px;
+
+	color: #FFF;
+	font-family:  'Open Sans', sans-serif;
+	text-align: left;
+	font-size: 14px;
+}
+img {
+	margin-bottom: auto;
+	margin-left: auto;
+	width: 100px;
+
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	margin-top: -60px;
+	margin-right: -50px;
+}
+
+.left{
+	display: block;
+	float: left;
+	width: 785px;
+	height: 630px;
+}
+
+.block_1x1 {
+	width: 145px;
+	height: 145px;
+}
+.block_2x1 {
+	width: 300px;
+	height: 145px;
+}
+.block_1x2 {
+	width: 145px;
+	height: 300px;
+}
+.block_2x2 {
+	width: 300px;
+	height: 300px; 
+}
+.block_3x1 {
+	width: 460px;
+	height: 145px;
+}
+.bg_blue {background-color: #2d89f0;}
+.bg_dark_blue {background-color:#0064cd;}
+.bg_green {background-color:#01a31c;}
+.bg_dark_green {background-color:#005200;}
+.bg_red {background-color:#bc1c48;}
+.bg_yellow {background-color:#ffc40d;}
+.bg_orange{background-color:#d44a26;}
+.bg_rose{background-color:#c3325f;}
+.bg_purple{background-color:#603cba;}
+.bg_black{background-color:#1c1c1c;}
+
+.desktop {
+	background: url("../images/windows-8-fish.jpg") center no-repeat;
+	background-size: 300px 145px;
+	width: 300px;
+	height: 145px;
+}
+.event {
+	right: 0;
+	margin-right: 20px;
+}
+
+.weather,
+.temperature,
+.cyrillic,
+.cyrillic2 {
+	margin-top: -60px;
+	margin-left: -10px;	
+}
+.weather {
+	top: 50%;
+	left: 10%;
+}
+.temperature {
+	font-size: 30px;
+	top: 50%;
+	left: 50%;
+}
+.cyrillic {
+	font-size: 15px;
+	top: 75%;
+	left: 50%;
+}
+.cyrillic2 {
+	font-size: 10px;
+	top: 90%;
+	left: 50%;
+}

@@ -1,0 +1,45 @@
+Site Properties
+
+Body 
+Background: #666666
+Font-family: Verdana, Arial, Helvetica, sans-serif;
+Font-size: 11px;
+
+Container: #fff
+Container Size: 800px
+
+Left Column Size: 550px
+
+Right Column
+Size: 250px
+Background-Color: #EEEEEE
+Border-Color: rgb(16,16,16)
+Tranparency: 0.5
+
+Footer: 
+Background: #101010
+Text-color: #fff
+
+Section Box: 
+Background: #660000
+Text: #FFFFFF0
+a: Color: #FFFF99;
+
+Section Box in Container: 
+Background: #666666;
+Color: #FFFFFF;
+a: Color: #FFFF99;
+Section Titles: background-color: rgba(40,0,0,0.5); 
+
+
+Header: 
+See image folder
+Height: 140px
+Border-Radius: 20px
+
+Menu: 
+See image folder
+font: bold 13px Arial;
+color: #fff
+
+All Border-Radius: 5px;

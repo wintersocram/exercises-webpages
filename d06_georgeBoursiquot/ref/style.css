@@ -1,0 +1,155 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+body{
+	position: relative;
+	background: #666;
+	font-family: 'Verdana', 'Arial', 'Helvetica', sans-serif;
+	font-size: 11px;
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+}
+.container{
+	position: absolute;
+	display: block;
+	background: #666;
+	background-size: 100%;
+	margin: 20px auto;
+}
+
+/*--------------- HEADER ---------------*/
+header{
+	background: url("images/header.jpg") center no-repeat;
+	width: 800px;
+	height: 140px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+header div{
+	position: absolute;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+header div h1{
+	line-height: 1px;
+}
+header div p{
+	top: 40px;
+	font-size: 12px;
+	padding-bottom: -60px;
+}
+
+/*--------------- NAV ---------------*/
+nav{
+	background: url("images/blockdefault.gif") center;
+	font-family: "arial";
+	font-weight: bold;
+	border-top: 1px #fff solid;
+	border-bottom: 1px #fff solid;
+	overflow: hidden;
+}
+nav ul{
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-size: 0px; /*eliminates the space between borders of each li element. Space due to the line break implicit on li*/
+}
+nav ul li{
+	display: inline-block;
+	border-right: 1px #fff solid;
+	text-decoration: none;
+	padding: 10px;
+}
+nav ul li a{
+	color: #fff;
+	font-family: "Arial", sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav ul li:hover{
+	background: url("images/blockactive.gif") center;
+}
+
+
+/*--------------- SECTION ARTICLE ---------------*/
+section{
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+}
+section article{
+	float: left;
+	background-color: #fff;
+	width: 527px;
+	padding: 0 10px;
+	padding-bottom: 25px;
+	text-align: justify;
+}
+section article div.article_02{
+	color: #fff;
+	background-color: #666;
+	border-radius: 5px;
+	padding: 1px 10px;
+}
+section article div.article_02 h3{
+	background-color: rgba(40, 0, 0, 0.5);
+	border-radius: 10px;
+	padding: 5px;
+}
+section article div.article_02 p a{
+	color: #ffff99;
+}
+
+
+/*--------------- SECTION ASIDE ---------------*/
+section aside{
+	float: right;
+	width: 250px;
+	background-color: #EEE;
+	border-color: rgba(16,16,16, 0.5);
+	padding-bottom: 25px;
+	text-align: justify;
+}
+section aside div{
+	margin: 0 10px;
+} 
+section aside div.aside_03 ol{
+	list-style-type: none;
+	padding-left: 0;
+}
+section aside div.aside_01 h3{
+	background-color: rgba(40, 0, 0, 0.5);
+	border-radius: 5px;
+	padding: 5px;
+}
+section aside div.aside_02, div.aside_03{
+	background-color: #660000;
+	color: #fffff0;
+	border-radius: 5px;
+	padding: 1px 10px;
+	margin: 10px;
+}
+section aside div.aside_02 h3, div.aside_03 h3{
+	background-color: rgba(40, 0, 0, 0.5);
+	border-radius: 5px;
+	padding: 5px;
+}
+section aside div a{
+	color: #ffff99;
+	padding: 5px;
+}
+
+/*--------------- FOOTER ---------------*/
+footer{
+	position: absolute;
+	/*float: bottom;*/
+	background: #101010;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	bottom: -300%;
+}
